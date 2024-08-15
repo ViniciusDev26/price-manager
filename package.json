@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "engines": {
+    "node": ">=20.16.0"
+  },
   "scripts": {
     "lint:check": "prettier check .",
     "lint:fix": "prettier --write ."
